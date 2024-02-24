@@ -28,7 +28,6 @@ abstract class House {
   protected tenants: Person[] = [];
 
   constructor(key: Key) {
-    this.door = false;
     this.key = key;
   }
 
